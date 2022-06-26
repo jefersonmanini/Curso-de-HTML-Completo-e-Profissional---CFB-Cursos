@@ -1,2 +1,1 @@
-Depois de muito procurar principalmente entre os que são considerados os araltos da programação no YouTube, encontrei o CFB Cursos que para mim é o melhor professor nesta área,
-tendo a melhor didática para ensinar. Vou acompanhar HTML, CSS, JS, react, Node js para poder me torno bom e colocar meus projetos em frente.
+<p>Depois de muito procurar principalmente entre os que são considerados os araltos da programação no YouTube, encontrei o CFB Cursos que para mim é o melhor professor nesta área, tendo a melhor didática para ensinar. Vou acompanhar HTML, CSS, JS, react, Node js para poder me torno bom e colocar meus projetos em frente.</p>
