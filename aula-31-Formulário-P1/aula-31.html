@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag canvas - Curso de HTML Completo e Profissional #17</title>
+    <link rel="stylesheet" href="aula-31.css">
+     
+   
+</head>
+
+<body>
+
+    <article>
+
+        <h1>Formulário parte 1</h1>
+        <p>A tag form cria um bloco para que tags de formulário e seus dados sejam agrupados e encaminhados para outro documento, em conjunto. Há muitas formas de
+             se construir formulários em documentos HTML, e não é mais necessário que as tags de formulário como input ou select estejam contidas dentro de uma tag form </p>
+        <p>Os inputs submit, reset e button já vem com um texto pré-determinado, caso queira mudar o text é necessário usar a propriedade value. </p>
+             <form name="f_cadastro" action="#" method="get">
+
+
+            <label for="">Login: </label>
+            <input type="text" name="f_name" maxlength="20" size="25">
+
+            <label for="" name="f_senha">Senha: </label>
+            <input type="password" name="f_senha" maxlength="20" size="15">
+
+
+            <div class="dv_btns">
+                <input type="submit" name="f_btn_enviar" value="Gravar" id="">
+                <input type="reset" name="f_btn_limpar" value="Limpar" id="">
+                <input type="button" name="f_btn_nada" value="nada" id="">
+
+                <label> Esportes Favoritos: </label>
+                <input type="checkbox" name="f_fut">- Futebol
+                <input type="checkbox" name="f_bas">- Basquete
+                <input type="checkbox" name="f_nat">- Natação
+            </div>
+            <p>Os input rádio precisam ter o mesmo nome para funcionarem perfeitamente.</p>
+            <label class="quebra">Possui carro?</label>
+                
+                <div class="dv_btns">
+                    <input type="radio" name="f_carro" value="s">sim
+                    <input type="radio" name="f_carro" value="n">não
+                </div>
+        </form>
+    </article>
+    
+    
+    <script src="aula17.js"></script>
+  
+    
+</body>
+</html>
