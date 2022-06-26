@@ -1,0 +1,11 @@
+.ex{
+    display: inline;
+}
+div{
+    background-color: aquamarine;
+    width: 500px;
+    height: 100px;
+}
+meter{
+    width: 500px;
+}
