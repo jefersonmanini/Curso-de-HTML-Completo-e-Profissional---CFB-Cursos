@@ -1,0 +1,76 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+/* position absolute é posiciondo em relação ao pai, desde que este pai não seja static*
+Se o position do pai for static ele será relaciondo ao elemento anterior e assim sucessivamente*/
+
+.main{
+    border: 1px dotted #f00;
+    margin: auto;
+    width:  960px;
+
+}
+#cabecalho,#corpo,#rodape{
+    border: 1px dotted #aaa;
+}
+#cabecalho{
+    position: absolute;
+    top: 0px; /*distancia do eixo superior para o elemento*/
+    left: 0px; /*distancia do elemento para a margem esquerda*/
+    right: ;  /*distancia do elemento para a marem direita*/
+    bottom: ;  /*distancia do eixo inferior para o elemtno*/
+    width: 100%;
+    height: 100px;
+}
+#corpo{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 970px;
+}
+#caixa1,#caixa2,#caixa3{
+    width: 150px;
+    height: 70px;
+    background-color: #fff;
+    color: #fff;
+}
+
+#caixa1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #f00;
+    color: #fff;
+    border: 1px solid #000;
+}
+#caixa2{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #0f0;
+    color: #fff;
+    border: 1px solid #000;
+}
+#caixa3{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #00f;
+    color: #fff;
+    border: 1px solid #000;
+
+}
+#rodape{
+    position: absolute;
+    top: 570px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    color: #fff;
+}

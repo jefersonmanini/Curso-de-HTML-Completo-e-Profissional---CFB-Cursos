@@ -1,0 +1,21 @@
+.ex{
+    display: inline;
+}
+div{
+    background-color: aquamarine;
+    width: 500px;
+    height: 100px;
+}
+.nav{
+    background-color: aqua;
+    width: 900px;
+    height: 150px;
+}
+nav{
+    background-attachment: red;
+    padding: 10px; 
+}
+nav a{
+    text-decoration: none;
+    color: #gff;
+}

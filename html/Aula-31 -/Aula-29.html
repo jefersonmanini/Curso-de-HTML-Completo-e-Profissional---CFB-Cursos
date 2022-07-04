@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de definição, Tags dl, dt e dd - Curso de HTML Completo e Profissional #26</title>
+    <link rel="stylesheet" href="aula29.css">
+</head>
+<body>
+  <form name="f_cadastro" action="#" method="get">
+    <label class="quebra">Hora:</label>
+    <input type="time" name="f_hora" min="09:00" max="17:00" required>
+    
+    <label class="quebra">Data:</label>
+    <input type="date" name="f_data" min="2019-06-03" max="2019-06-08">
+   
+    <label class="quebra">Data e Hora:</label>
+    <input type="datetime-local" name="f_data_hora" min="2019-06-03" max="2019-06-08">
+    
+    <label class="quebra">Mês</label>
+    <input type="month" name="f_mes" min="" max="">
+    
+    <label class="quebra">Semana</label>
+    <input type="week" name="f_semana" min="" max="">
+
+    <label class="quebra">Data e Hora:</label>
+
+    <button class="espaco_t quebra" type="submit" name="f_enviar">enviar</button>
+
+
+
+  </form>
+
+
+  <form name="f_cadastro" action="#" method="get">
+    <label class="quebra">Selecione uma cor:</label>
+    <input type="color" name="f_cor" min="" max="">
+
+    <label class="quebra">Digite seu e-mail</label>
+    <input type="email" name="f_email" >
+
+
+    <label class="quebra">Digite seu e-mail</label>
+    <input class="quebra espaco_t"  type="image" name="f_enviar_2" >
+   
+    <button class="espaco_t quebra" type="submit" name="f_enviar">enviar</button>
+
+  </form>
+
+  <h1>Aula 37</h1>
+  <form name="f_cadastro" action="#" method="get">
+    <label class="quebra">Telefone:</label>
+    <input type="tel" name="f_tel" pattern="
+    ([0-9]{2})[9]{1}[0-9]{4}-[0-4]{4}"
+    placeholder="(xx)-9-9999-9999">
+
+    <label class="quebra">Senha:</label>
+    <input type="password" name="f_senha" pattern="
+    [a-zA-Z0-9]{5}" maxlength="5">
+
+    <label class="quebra">Número:</label>
+    <input type="number" name="f_numero" pattern="
+    [a-zA-Z0-9]{5">
+
+    <label class="quebra">Pesquisa:</label>
+    <input type="search" name="f_pesquisa" pattern="
+    [a-zA-Z0-9]{5">
+
+   <button class="espaco_t quebra" type="submit" name="f_enviar">enviar</button>
+
+  </form>
+
+  <h1>Aula 39</h1>
+  <form name="f_cadastro" action="#" method="get">
+   
+    <select name="f_cor" multiple="">
+      <option value="P">Preto</option>
+      <option value="B">Branco</option>
+      <option value="Red">Vermelho</option>
+      <option value="G">Verde</option>
+      <option value="A">Azul</option>
+    </select>
+
+   <button class="espaco_t quebra" type="submit" name="f_enviar">enviar</button>
+
+  </form>
+
+  <h1>Aula 40</h1>
+  <form name="f_cadastro" action="#" method="get">
+    <input list="f_transporte" name="f_cor">
+    <datalist id="f_cores">
+      <option value="red">Vermelho</option>
+      <option value="green">Verde</option>
+      <option value="blue">Azul</option>
+      <option value="yellow">Amarelo</option>
+      <option value="white">Branco</option>
+      <option value="black">Preto</option>
+
+    </datalist>
+
+   <button class="espaco_t quebra" type="submit" name="f_enviar">enviar</button>
+
+  </form>
+
+  <h1>Aula 41 - fieldset</h1>
+  <form name="f_cadastro" action="#" method="get">
+
+    <fieldset>
+      <label for="f_nome">Nome:</label>
+      <input type="text" name="f_name" id="f_nome" class="quebra">
+
+      <label for="f_telefone">Telefone:</label>
+      <input type="tel" name="f_telefone" id="f_telefone" class="quebra">
+
+     </fieldset>
+     
+     
+     <fieldset>
+
+      <label for="f_nome">Possui carro?</label>
+      <input type="radio" name="f_carro" id="f_carro" id="f_carro" class="quebra" value="s" checked>SIM <br>
+      <input type="radio" name="f_carro" id="f_carro" id="f_carro" class="quebra" value="n" checked>NÂO <br>
+
+
+     </fieldset>
+   
+    <button class="espaco_t quebra" type="submit" name="f_enviar">enviar</button>
+
+  </form>
+
+  <h1>Aula 42 - textarea</h1>
+  <form name="f_cadastro" action="#" method="get">
+
+    <textarea name="" id="" cols="30" rows="10" autofocus>
+
+
+
+    </textarea>
+   
+    <button class="espaco_t quebra" type="submit" name="f_enviar">enviar</button>
+
+  </form>
+
+  
+        
+</body>
+</html>
