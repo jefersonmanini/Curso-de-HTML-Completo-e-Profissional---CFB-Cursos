@@ -1,0 +1,6 @@
+body{
+    background-image: url(flor-01.jpg), url(flor-02.jpg);
+    background-size: 500px, 600px;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed, fixed;
+}

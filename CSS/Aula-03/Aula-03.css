@@ -1,0 +1,12 @@
+p{
+    color: ;
+}
+article{
+    border: solid 1px;
+    border-radius: 10px ;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,0,0,0.5);
+}
