@@ -1,0 +1,16 @@
+#d1, #d2, #d3{
+   width: 100px;
+   height: 100px;
+   border: black solid 10px;
+   padding: 50px;
+       
+}
+#d1{
+    border-radius: 40px;
+}
+#d2{
+    border-radius: 100px 1px 1px 1px;
+}
+#d3{
+    border-radius: 100%;
+}

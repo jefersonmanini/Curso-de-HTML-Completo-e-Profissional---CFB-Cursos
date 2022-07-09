@@ -1,0 +1,10 @@
+p{
+    /*border: black solid 10px;*/
+    /**/
+    width: 300px;
+    border-top: black solid 20px;
+    border-bottom: red double 20px;
+    border-left: blue dotted 20px;
+    border-right: green groove 20px;
+    
+}
