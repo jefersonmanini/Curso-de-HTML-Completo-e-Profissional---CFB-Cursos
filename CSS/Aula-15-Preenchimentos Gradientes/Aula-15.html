@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Preenchimentos Gradientes</title>
+    <link rel="stylesheet" href="Aula-15.css">
+</head>
+<body>
+    <article>
+        <h1> Preenchimentos Gradientes</h1>
+        <p>Os gradientes CSS permitem exibir transições suaves entre duas ou mais cores especificadas.</p>
+        <p>CSS define três tipos de gradientes:</p>
+        <ul>
+            <li>Gradientes Lineares (desce/cima/esquerda/direita/diagonal)</li>
+            <li>Gradientes radiais (definidos pelo seu centro)</li>
+            <li>Gradientes cônicos (girados em torno de um ponto central)</li>
+        </ul>
+        <h2>Gradientes Lineares CSS</h2>
+        <p>Para criar um gradiente linear, você deve definir pelo menos duas paradas de cor. As paradas de cor são as cores entre as quais você deseja renderizar transições suaves. Você também pode definir um ponto de partida e uma direção (ou um ângulo) junto com o efeito de gradiente.</p>
+        <h2>Sintaxe</h2>
+        <p><code>background-image: linear-gradient(direction, color-stop1, color-stop2, ...);</code></p>
+        <p>Direção - De cima para baixo (este é o padrão)</p>
+        <p>O exemplo a seguir mostra um gradiente linear que começa na parte superior. Começa em vermelho, passando para amarelo:</p>
+        <p>Podem ser usadas tantas cores quanto for possível.</p>
+        <div id="d1">de cima para baixo (padrão)</div>
+        <hr>
+
+        <h2>Gradientes radiais CSS</h2>
+        <p>Um gradiente radial é definido pelo seu centro.</p>
+        <p>Para criar um gradiente radial, você também deve definir pelo menos duas paradas de cor.</p>
+        <h2>Sintaxe</h2>
+        <p><code>background-image: radial-gradient(shape size at position, start-color, ..., last-color);</code></p>
+        <p>Por padrão, a forma é elipse, o tamanho é o canto mais distante e a posição é o centro.</p>
+
+        <p>Gradiente radial - Paradas de cores uniformemente espaçadas (este é o padrão)</p>
+        <p>O exemplo a seguir mostra um gradiente radial com paradas de cores uniformemente espaçadas:</p>
+        <div id="d2">de cima para baixo (padrão)</div>
+        <hr>
+
+        <h2>Gradientes cônicos CSS</h2>
+        <p>Um gradiente cônico é um gradiente com transições de cores giradas em torno de um ponto central.</p>
+        <p>Para criar um gradiente cônico você deve definir pelo menos duas cores.</p>
+        <h2>Sintaxe</h2>
+        <p><code>background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...);</code></p>
+        <p>Por padrão, o ângulo é 0 graus e a posição é o centro.</p>
+
+        <p>Se nenhum grau for especificado, as cores serão distribuídas igualmente ao redor do ponto central.</p>
+        <p>Gradiente Cônico: Três Cores</p>
+        <div id="d3">Um gradiente cônico com três cores:</div>
+        <a href="https://www.w3schools.com/css/css3_gradients.asp" target="_blank">Fonte</a>
+    </article>
+
+</body>
+</html>

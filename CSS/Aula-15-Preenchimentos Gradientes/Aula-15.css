@@ -1,0 +1,39 @@
+#d1{
+    background-image: linear-gradient(red, yellow);
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin: 30px;
+}
+#d2{
+    background-image: radial-gradient(red, yellow, green);
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin: 30px;
+}
+#d2{
+    background: conic-gradient(red, yellow, green);;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    margin: 30px;
+}
+article{
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 1200px;
+    margin: auto;
+}
+p{
+    margin: 30px;
+}
+h1{
+    margin: 30px;
+}
+h2{
+    margin: 30px;
+}
+hr{
+    width: 1000px;
+}
