@@ -1,0 +1,39 @@
+article{
+    width: 1000px;
+    border-radius: 30px;
+    border: #000 solid 1px;
+}
+#dv1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    transform: translate(200px, 20px);
+}
+#dv2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    transform: rotate(40deg);
+    margin-top: 100px;
+}
+#dv3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    transform: scale(2);
+    margin-top: 100px;
+}
+#dv4{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    transform: skewY(40deg), skewX(40deg);
+    margin-top: 100px;
+}
+#dv5{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    transform: translate(200px, 20px);
+    margin-top: 100px;
+}
