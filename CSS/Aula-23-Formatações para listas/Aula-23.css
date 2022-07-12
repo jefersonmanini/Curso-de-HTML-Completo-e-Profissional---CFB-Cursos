@@ -1,0 +1,12 @@
+ul{
+    list-style-type: circle;
+    font-size: 25px;
+    list-style-position: inside;
+}
+ol{
+    list-style: circle 25px outside;  
+}
+.mp{
+    list-style-image: url(marcador.png);
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações para listas</title>
+    <link rel="stylesheet" href="Aula-23.css">
+    <script src="https://kit.fontawesome.com/55c57beb68.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <article>
+        <h1>Formatações para listas</h1>
+        <p>As listas podem ser de dois tipos, ordenadas e desordenadas. Porém, mesmo elas já possuindo uma especificação, ainda sim ela podem ser formatdas diferente disso.</p>
+        <p>Em atributos que são dois, podemos alterar compact e o typo, este define o formado dos marcadores que irão aparecer. Em CSS podemos ir em "list-style-type:" e escolher o tipo de marcador.</p>
+        
+        <h2>Marcadores externos</h2>
+        <p>Também é possível escolher uma imagem para ser o marcador das listas.</p>
+        <p>É interessante que quando for intopduzir imagens como marcadores elas sejam png com fundo branco para que não fiquem em contrastes.</p>
+        <p>Apesar do marcador fazer parte do todo da lista, na hora de formatar tanto o texto quanto o marcador são formatados diferentes.
+            Sendo assim, é interessante qua quando for formatar o texto, a propriedade "list-style-position: inside;" seja usada.
+        </p>
+
+        <h2>Metapropriedades</h2>
+        <p>Em listas também é possível usar várias propriedades de uma vez.</p>
+        <!--Listas desordenadas-->
+        <ul>
+            <li>transform: translateY</li>
+            <li>transform: scaleY</li>
+            <li>transform: rotateY</li>
+            <li>Homem</li>
+            <li>Mulher</li>
+            <li>Criança</li>
+            <li>Avó</li>
+            <li>Avô</li>
+           
+        </ul>
+
+        <!--Listas ordedenadas-->
+        <ol>
+            <li>transform: translateY</li>
+            <li>transform: scaleY</li>
+            <li>transform: rotateY</li>
+            <li>Homem</li>
+            <li>Mulher</li>
+            <li>Criança</li>
+            <li>Avó</li>
+            <li>Avô</li>
+           
+        </ol>
+
+        <!--Marcador personalizado-->
+        <ol class="mp">
+            <li>transform: translateY</li>
+            <li>transform: scaleY</li>
+            <li>transform: rotateY</li>
+            <li>Homem</li>
+            <li>Mulher</li>
+            <li>Criança</li>
+            <li>Avó</li>
+            <li>Avô</li>
+           
+        </ol>
+       
+        
+    </article>
+</body>
+</html>
