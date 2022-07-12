@@ -4,7 +4,7 @@ ul{
     list-style-position: inside;
 }
 ol{
-    list-style: circle 25px outside;  
+    list-style: circle 25px outside;
 }
 .mp{
     list-style-image: url(marcador.png);
