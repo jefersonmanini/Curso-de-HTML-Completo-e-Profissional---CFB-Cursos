@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <link rel="stylesheet" href="Aula-26.css">
+</head>
+<body>
+    <article>
+        <h1>display</h1>
+        <p>A propriedade CSS  display especifica o tipo de caixa de renderização usada por um elemento. No HTML, os valores padrões da propriedade  display são feitas a partir do comportamento descrito nas especificações HTML ou da folha de estilo padrão do navegador/usuário. O valor padrão em XML é inline.</p>
+        <p>Além dos muitos tipos diferentes de exibição de caixa, o valor  none permite desativar a exibição de um elemento; quando você usa none, todos os elementos descendentes também tem a sua exibição desativada. O documento é renderizado como se o elemento não existisse na árvore do documento.</p>
+        <p>Para entender melhor o posicionamento dos elementos crei algumas divs e dentro de cada div outras divos onde displays diferentes serão usados para melhor exemplificar. Para exemplificar foi usado dois elementos diferentes,
+          um span e uma div. A div tem como padrão seu display block, já o span tem como padrão seu display inline.
+        </p>
+
+        <div id="div1">
+          <p>Display block</p>
+          <p>Por padrão as div vêm com display block e o span com display inline. Um elemeto com display bloco oculpa toda linha e mesmo que ele seja pequeno ainda 
+            sim toda a linha será oculpada e o proximo elemento tendo ele display block ou inline oculpara a linha debaixo. Foi colocado dois span em sequência para mostrar que como eles possuem um display inline é permitido ficar mais de um
+            elemento na mesma linha desde que ele caibam.
+          </p>
+
+          <div class="dv1">
+            <div class="block">Elemento com display block.</div>
+            <span >Elemento com display inline por padrão.</span>
+            <div class="block">Elemento com display block.</div>
+            <span>Elemento com display inline por padrão.</span>
+            <span>Elemento com display inline por padrão.</span>
+          </div>
+          
+          <p>Display inline</p>  
+          <div class="dv2">
+          <div class="inline"></div>
+          <span >Elemento com display inline por padrão.</span>
+          <div class="inline"></div>
+          <span > Elemento com display inline por padrão.</span>
+          </div>
+
+          <p>Display inline-block</p>
+          <p>O elemento gera uma caixa de elemento de bloco que fluirá com o conteúdo circundante, como se fosse uma única caixa embutida (se comportando como um elemento substituído). Neste tipo de display, mesmo elementos que sejam inline podem recever configurações diferentes das que os display permite.</p>
+          <div class="dv3">
+            <div class="inlineblock"></div>
+            <span class="inlineblock"></span>
+            <div class="inlineblock"></div>
+            <span class="inlineblock"></span>
+            <script class="inlineblock">Este é um scripit recebendo display inline-block</script>
+          </div>
+          <p>Display none</p>
+          <p>Neste exemplo temos 4 elementos dentro desta div, duas span e duas div, porém eles não aparecem, pois o display none esta ativado. Mas o que exatamente este display faz? Ele desabilita a exibição do elemento 
+            (sem afetar o layout); todos os elementos filhos também tem sua exibição desabilitada. O documento é renderizado como se o elemento não existisse. O faz parte do html, mas é como se na renderização ele não
+            existisse.
+          </p>
+          <div class="dv4">
+            <div class="none">Está é uma div com Display none</div>
+            <span class="none">Este é um span com Display none</span>
+            <div class="none">Está é uma div com Display none</div>
+            <span class="none">Este é um span com Display none</span>
+          </div>
+          
+
+        </div>
+        <h3>Sintexe</h3>
+
+
+
+
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/outline">Fonte</a>
+    </article>
+
+    
+</body>
+</html>
