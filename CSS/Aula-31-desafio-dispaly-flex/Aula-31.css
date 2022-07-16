@@ -1,0 +1,42 @@
+.header-protifolio{
+  text-align: center;
+  background-color: #bcac71;
+  height: 100px;
+}
+.nav-bar--itens-de-menu{
+  height: auto;
+  background-color: #e9db9c;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle; 
+}
+.link--menu{
+  background-color: #9c8c51;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.section--itens-aulas{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.block--conteudo-da-aula{
+  height: 150px;
+  width: 300px;
+  border: solid 2px #555231;
+  background-color: #e9db9c;
+  margin: 10px;  
+}
+.footer--informacoes-sobre-a-pagina{
+  background-color: #555231;
+  height: 50px;
+  text-align: center;
+}
+.paragrafo--footer{
+  font-size: 2em;
+}

@@ -9,9 +9,9 @@
 </head>
 <body>
     <h1>Propriedade order</h1>
-    <p>A propriedade CSS order define a ordem para colocar um item em um contêiner flexível ou de grade. Os itens em um
+    <p>A propriedade CSS order define a ordem para colocar <strong>um item em um contêiner flexível ou de grade</strong>. Os itens em um
         contêiner são classificados por valor de ordem crescente e, em seguida, pela ordem do código-fonte.</p>
-    <p>O uso da propriedade order criará uma desconexão entre a apresentação visual do conteúdo e a ordem do DOM.
+    <p>O uso da propriedade order <strong>criará uma desconexão entre a apresentação visual do conteúdo e a ordem do DOM</strong>.
         Isso afetará negativamente os usuários com baixa visão navegando com a ajuda de tecnologia assistiva, como um
         leitor de tela. Se a ordem visual (css) for importante, os usuários de leitores de tela não terão acesso à 
         ordem de leitura correta.</p>
@@ -24,11 +24,14 @@
             <div id="propriedade-order-d4">div 4</div>
             <div id="propriedade-order-d5">div 5</div>
             <div id="propriedade-order-d6">div 6</div>
-   </section>
+        </section>
 
    <!--Flex-Grow-->
-    <h1>flex-grow</h1>
-    <p>A propriedade CSS flex-grow define o fator de crescimento flexível do tamanho principal de um item flexível.</p>
+    <h1>Flex-Grow = Capacidade de expansão</h1>
+    <p>A propriedade CSS flex-grow define o fator de crescimento flexível do tamanho principal de um item flexível. Esta configuração já vem padrão na propriedade flex,
+        então sempre que usamos flex é essa forma que é usada. Quando colocamos o valor 1 ele estica, valor zero volta a configuração normal. O elemento que estiver com flex-grow ativado irá expandir para completar o largura do elemento pai junto aos outros elementos. Se formos ativando flex grow com o valor nos outros elementos eles irão divir
+        o epaço em branco.
+    </p>
     <h3>Description</h3>
     <p>Esta propriedade especifica quanto espaço restante no contêiner flexível deve ser atribuído ao item (o fator de crescimento flexível).</p>
     
@@ -42,9 +45,9 @@
     </section>
 
     <!--Flex-shrink-->
-    <h1>Flex shrink</h1>
+    <h1>Flex shrink = Capacidade de contração</h1>
     <p>A propriedade CSS flex-shrink define o fator de <b>redução flexível de um item flexível</b>. Se o tamanho de todos os itens flexíveis for maior que o
-        contêiner flexível, os itens encolherão para caber de acordo com o flex-shrink.</p>
+        contêiner flexível, os itens encolherão para caber de acordo com o flex-shrink. Como a propriedade é diferente do flex-grow o valor 1 contrai e o valor zero expande.</p>
     <p>Em uso, flex-shrink é usado junto com as outras propriedades flex flex-grow e flex-basis, e normalmente definido usando a abreviação flex.</p>
 
     <section class="flex-shrink">
@@ -55,6 +58,26 @@
         <div id="flex-shrink-d5">div 5</div>
         <div id="flex-shrink-d6">div 6</div>
     </section>
+
+
+        <!--Flex-basis-->
+        <h1>Flex basis</h1>
+        <p>A propriedade CSS flex-basis define o tamanho principal inicial de um item flex. Ele define
+             o tamanho da caixa de conteúdo, a menos que seja definido de outra forma com dimensionamento de caixa.</p>
+        <p>Neste exemplo, as propriedades flex-grow e flex-shrink são definidas como 1 em todos os três itens, indicando
+             que o item flex pode aumentar e diminuir a partir da base flex inicial.</p>
+        <p>A demonstração então altera a base flexível no primeiro item. Ele então crescerá e encolherá a partir dessa base
+             flexível. Isso significa que, por exemplo, quando o flex-basis do primeiro item for de 200px, ele começará em 200px, mas depois 
+            encolherá para caber no espaço disponível com os outros itens com pelo menos o tamanho mínimo de conteúdo.</p>
+        <p>A imagem abaixo mostra como o Firefox Flexbox Inspector ajuda você a entender o tamanho dos itens:</p>                
+        <section class="flex-basis">
+            <div id="flex-basis-d1">div 1</div>
+            <div id="flex-basis-d2">div 2</div>
+            <div id="flex-basis-d3">div 3</div>
+            <div id="flex-basis-d4">div 4</div>
+            <div id="flex-basis-d5">div 5</div>
+            <div id="flex-basis-d6">div 6</div>
+        </section>
 
     
 </body>
