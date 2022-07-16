@@ -1,0 +1,50 @@
+article{
+  border: black solid 1px;
+  border-radius: 10px;
+  width: 1200px;
+}.p1{
+  color: #000;
+  text-align: justify;
+  text-indent: 50px;
+  
+}
+.p2{
+  color: #0f0;
+  text-align: center;
+  text-transform: lowercase;
+  word-spacing:20px;
+}
+.p3{
+  color: #00f;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.p4{
+  color: #f70;
+  text-align: right;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+}
+.p5{
+  color: #f58;
+  text-align: end;
+  
+}
+.p6{
+  color: #f90;
+  text-align: start;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+}
+.pa{
+  direction: rtl;
+}
+div{
+  width: 500px;
+  height: 200px;
+  border: solid black 1px;
+  white-space: normal;
+}

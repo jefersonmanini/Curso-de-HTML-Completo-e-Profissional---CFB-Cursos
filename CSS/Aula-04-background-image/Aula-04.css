@@ -1,0 +1,18 @@
+{
+  background-color: aliceblue;
+  background-image: url(img-01.jpg);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 200px 200px;
+}
+p{
+
+}
+.box{
+  color: black;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-image: url(img-01.jpg);
+  border-radius: solid 1px;
+  width: 200px;
+}

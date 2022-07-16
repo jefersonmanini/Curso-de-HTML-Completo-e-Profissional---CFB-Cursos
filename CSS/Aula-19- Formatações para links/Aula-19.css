@@ -1,0 +1,21 @@
+article{
+  border: black solid 1px;
+  border-radius: 10px;
+  width: 1200px;
+}
+a:link, a:visited, a:active{
+  color: pink;
+}
+a:hover{
+  color: red;
+  border: solid pink 1px;
+  border-radius: 10px;
+  width: 200px;
+  background-color: blue;
+}
+
+/*hover é o estado que o link se apresenta quando o mouse passar por cima dele.*/
+a{
+  display: block;
+  text-decoration: none;
+}

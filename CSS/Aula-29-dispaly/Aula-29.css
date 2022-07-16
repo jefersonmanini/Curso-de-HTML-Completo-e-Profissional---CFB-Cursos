@@ -1,0 +1,22 @@
+article {
+  border: solid #000 1px;
+  border-radius: 30px;
+  width: 1800px;
+}
+section{
+  border: 3px solid #f00;
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+}
+
+div{
+  flex: 1 ;
+  justify-content: flex-start;
+  border: 1px solid #000;
+}

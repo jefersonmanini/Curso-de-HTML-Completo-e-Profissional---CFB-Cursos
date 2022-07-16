@@ -1,0 +1,17 @@
+/*seleção por tag*/
+article{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 800px;
+    position: auto;
+}
+/*Seleção por classe, antes de colocar o nome da classe idicada deve-se colocar .*/
+.titulo{
+    color: red;
+    font-size: 41px;
+}
+/*seleção por id, colocar # antes do id*/ 
+#paragrafo{
+    color: blue;
+
+}

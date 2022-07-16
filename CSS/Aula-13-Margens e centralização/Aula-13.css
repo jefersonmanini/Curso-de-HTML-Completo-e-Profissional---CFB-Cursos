@@ -1,0 +1,23 @@
+body{
+  margin: 0px;
+}
+#d1{
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  margin: auto;
+  margin-bottom: 50px;
+}
+#d2{
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  margin: auto;
+}
+p{
+  width: 200px;
+  margin: auto;
+  margin-bottom: 10px;
+  border: black solid 5px;
+  text-align: center;
+}

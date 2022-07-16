@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display-flex e propriedade flex</title>
+    <link rel="stylesheet" href="Aula-30.css">
+</head>
+<body>
+    <h1>Propriedade order</h1>
+    <p>A propriedade CSS order define a ordem para colocar um item em um contêiner flexível ou de grade. Os itens em um
+        contêiner são classificados por valor de ordem crescente e, em seguida, pela ordem do código-fonte.</p>
+    <p>O uso da propriedade order criará uma desconexão entre a apresentação visual do conteúdo e a ordem do DOM.
+        Isso afetará negativamente os usuários com baixa visão navegando com a ajuda de tecnologia assistiva, como um
+        leitor de tela. Se a ordem visual (css) for importante, os usuários de leitores de tela não terão acesso à 
+        ordem de leitura correta.</p>
+
+        <!--Propriedade order-->
+        <section class="propriedade-order">
+            <div id="propriedade-order-d1">div 1</div>
+            <div id="propriedade-order-d2">div 2</div>
+            <div id="propriedade-order-d3">div 3</div>
+            <div id="propriedade-order-d4">div 4</div>
+            <div id="propriedade-order-d5">div 5</div>
+            <div id="propriedade-order-d6">div 6</div>
+   </section>
+
+   <!--Flex-Grow-->
+    <h1>flex-grow</h1>
+    <p>A propriedade CSS flex-grow define o fator de crescimento flexível do tamanho principal de um item flexível.</p>
+    <h3>Description</h3>
+    <p>Esta propriedade especifica quanto espaço restante no contêiner flexível deve ser atribuído ao item (o fator de crescimento flexível).</p>
+    
+    <section class="flex-grow">
+        <div id="flex-grow-d1">div 1</div>
+        <div id="flex-grow-d2">div 2</div>
+        <div id="flex-grow-d3">div 3</div>
+        <div id="flex-grow-d4">div 4</div>
+        <div id="flex-grow-d5">div 5</div>
+        <div id="flex-grow-d6">div 6</div>
+    </section>
+
+    <!--Flex-shrink-->
+    <h1>Flex shrink</h1>
+    <p>A propriedade CSS flex-shrink define o fator de <b>redução flexível de um item flexível</b>. Se o tamanho de todos os itens flexíveis for maior que o
+        contêiner flexível, os itens encolherão para caber de acordo com o flex-shrink.</p>
+    <p>Em uso, flex-shrink é usado junto com as outras propriedades flex flex-grow e flex-basis, e normalmente definido usando a abreviação flex.</p>
+
+    <section class="flex-shrink">
+        <div id="flex-shrink-d1">div 1</div>
+        <div id="flex-shrink-d2">div 2</div>
+        <div id="flex-shrink-d3">div 3</div>
+        <div id="flex-shrink-d4">div 4</div>
+        <div id="flex-shrink-d5">div 5</div>
+        <div id="flex-shrink-d6">div 6</div>
+    </section>
+
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de CSS </title>
+    <link rel="stylesheet" href="Aula-02.css">
+</head>
+<body>
+    <article>
+        <h1 class="titulo">
+            Uso de seletores
+        </h1>
+        <p id="paragrafo">Os Seletores definem quais elementos um conjunto de regras CSS se aplica. Há três tipos básicos de seleção, tag, classe e id  </p>
+        <h3 class="titulo">Seleção por tag</h3>
+        <p>Este seletor básico escolhe todos os elementos que correspondem ao nome fornecido.</p>
+        <ul>
+            <li>
+                nome-da-tag{ aqui dentro coloca a estilização desejada.}
+            </li>
+        </ul>
+        <h3>Seleção por classe</h3>
+        <p>Este seletor básico escolhe elementos baseados no valor de seu atributo classe. Quando for usar a classe no css  primeiro será colocado um ponto . e depois 
+            a classe que foi usada no html para fazer a estilização. Pode existir vários elementos com a mesma classe
+        </p>
+        <ul>
+            <li>
+                .nome-da-classe{ aqui dentro coloca a estilização desejada.}
+            </li>
+        </ul>
+        <h3 class="titulo">Seleção por id</h3>
+        <p>Este seletor básico escolhe nós baseados no valor do atributo id. <strong>Deve existir apenas um elemento com o mesmo ID no mesmo documento</strong>.
+        para selecionar o id no css usamos # e depois o id da tag.  
+        </p>
+        <strong>Exemplo</strong>: #toc irá corresponder ao elemento que possuir o id=toc (definido por um atributo id="toc", ou similar).
+        <ul>
+            <li>
+                #nome-do-id{ aqui dentro coloca a estilização desejada.}
+            </li>
+        </ul>
+        <h2 class="titulo">Elementos combinados</h2>
+        <p>O combinador + seleciona os nós que seguem imediatamente o elemento especificado anteriormente.</p>
+        <p><strong>Sintaxe</strong>: A + B
+        <p> <strong>Exemplo</strong>: ul + li irá corresponder a qualquer elemento li que segue imediatamente após um elemento ul.</p></p>   
+
+    </article>
+    
+</body>
+</html>
