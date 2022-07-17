@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="Aula-31.css">
+</head>
+<body>
+    <h1>Position</h1>
+    <p>A propriedade position, encontrada no CSS, define como um elemento pode ser posicionado (renderizado) no documento (página). 
+        Essa propriedade (position) pode ser acompanhada de outras, tais como, top (en-US), right (en-US), bottom (en-US), and left (en-US), que determinam como
+         ficará a localização final do objeto, permitindo seu deslocamento, como será apresentado adiante.</p>
+    <h2>Tipos de posicionamentos</h2>
+    <ul>
+        <li>Um elemento posicionado é um elemento cujo valor de sua posição pode ser computado (calculado) como relative, absolute, fixed, or sticky. ( Em outras palavras, <strong>são todos esses</strong>, com exceção do static, 
+            <strong>sendo estático=static o valor como padrão do elemento</strong>.)</li>
+        <li>Um elemento denominado com posicionamento relativo, ou relatively positioned element, é um elemento cuja função é calculada ao ser definida a position como valor relative. Com isso, a propriedade top
+             (en-US) e bottom (en-US) determinam o deslocamento ou projeção vertical a posição padrão do elemento que estava definida por static; Não sendo outro, o left (en-US) e o right (en-US), por sua vez, 
+             determinam o deslocamento horizontal.</li>
+        <li>Um elemento denominado com posicionamento absoluto, ou absolutely positioned element,  é um elemento determinado e calculado ao atribuir ao position o valor absolute
+             ou fixed. Com top (en-US), right (en-US), bottom (en-US), and left (en-US) é possível especificar o deslocamento das laterais (bordas) dos blocos que contêm (containing
+              block) os elementos.  (O containing block, ou blocos que envolvem um elemento é definido como um antecessor relativo ao qual o elemento está posicionado, acomplado ou englobado.  Se por ventura o elemento tiver definido margens (margin), ele são adicionados ao deslocamento
+             (offset). O elemento estabelecerá um novo contexto de formatação do bloco (BFC) para seus conteúdos.</li>
+        <li>Um elemento denominado com posicionamento adesivo ( ! ), ou stickily positioned element, é um elemento determinado e calculado ao atribuir ao position como valor sticky.
+             Sendo tratado como um posicionamento relativo até que ultrapasse (atinja) os limites do bloco no qual está contido.  (Se assemelha a configurar a propriedade top (en-US) com
+             um valor diferente de automático (auto)) Dentro do seu fluxo principal (fluxo raiz, ou o contêiner no qual ele desloca-se),  No momento que há o deslocamento da
+              página o elemento é tratado como "preso" ou "stuck" até encontrar-se com as paredes opostas do bloco no qual esteja 
+             contido.</li>
+    </ul>
+    <code><pre><h2>Sintáxe formal</h2>
+        position = 
+          static      |
+          relative    |
+          absolute    |
+          sticky      |
+          fixed       |
+          running( ) </pre></code>
+</body>
+</html>
