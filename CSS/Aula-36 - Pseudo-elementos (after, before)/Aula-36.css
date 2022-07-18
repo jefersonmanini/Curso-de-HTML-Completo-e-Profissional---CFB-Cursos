@@ -1,0 +1,12 @@
+div::before{
+  content: "Aparece um texto antes do conteúdo selecionado. ";
+  color: blue;
+}
+div::after{
+  content: " Assim como pode aparecer depois e também podem ser colocado imagens para fazer a mesma coisa";
+  color: red;
+}
+.paragrafo--before::before{
+  content: "Teste usando classe em pseudo-elementos";
+  color: red;
+}
