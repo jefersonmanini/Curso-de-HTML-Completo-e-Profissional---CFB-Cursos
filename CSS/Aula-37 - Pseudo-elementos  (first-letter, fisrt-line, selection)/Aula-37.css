@@ -1,0 +1,16 @@
+.first-leter-paragrafo::first-letter{
+  color: red;
+  font-size: 50px;
+}
+.firts-line-paragrafo::first-line{
+  color: blue;
+  font-size: 50px;
+}
+.selection-paragrafo::selection{
+  color: white;
+  background-color: black;
+}
+a{
+  text-decoration: none;
+  
+}
