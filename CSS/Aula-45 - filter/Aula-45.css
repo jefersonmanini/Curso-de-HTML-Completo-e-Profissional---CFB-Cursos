@@ -1,0 +1,10 @@
+*{
+  margin: 50px;
+}
+img{
+  filter: brightness(0);
+}
+div{
+  border: 1px solid #000;
+  width: 300px;
+}
