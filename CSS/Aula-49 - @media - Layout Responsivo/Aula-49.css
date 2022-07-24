@@ -1,0 +1,43 @@
+.menu-lista--nav{
+  float: left;
+  width: 200px;
+}
+
+.menu-lista--lu{
+  margin: 0;
+  padding: 0;
+}.menu-lista-li{
+  background-color: #d55;
+  color: #fff;
+  border: #ddd solid 1px;
+  border-radius: 4px;
+  list-style-type: none;
+  height: 25px;
+  margin: 4px;  
+  padding: 2px;
+}
+article{
+  margin-left: 216px;
+}
+
+
+/*Regra para celular*/
+@media screen and (min-width:0px) and (max-width: 500px) {
+  .menu-lista--nav{
+    width: 100%;
+  }
+  article{
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .menu-lista--lu{
+    margin: 10px;
+    padding: 2px;
+  }
+}
+/*Regra para tablet*/
+@media screen and (min-width:501px) and (max-width: 800px) {
+  
+}
+
